@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C2B277716F88BE40010275A /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2B277616F88BE40010275A /* VideoViewController.m */; };
+		7C385E79168C44ED009FFC36 /* settingTable.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C385E78168C44ED009FFC36 /* settingTable.plist */; };
+		7C385E7D168C4516009FFC36 /* mainSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C385E7C168C4515009FFC36 /* mainSettingViewController.m */; };
+		7C385E80168C46EE009FFC36 /* settingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C385E7F168C46EE009FFC36 /* settingCell.m */; };
+		7C385E84168C689C009FFC36 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C385E83168C689C009FFC36 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		7C38D3AE171453780023F3D3 /* libTapticaAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C38D3AD171453780023F3D3 /* libTapticaAd.a */; };
+		7C9CD86416C01D6200F9A89D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9CD86316C01D6200F9A89D /* StoreKit.framework */; };
+		7CA0BBA516EF80F10093800C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CA0BBA416EF80F10093800C /* MediaPlayer.framework */; };
+		7CDE0E8F168B4D0000F301DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDE0E8E168B4D0000F301DE /* UIKit.framework */; };
+		7CDE0E91168B4D0000F301DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDE0E90168B4D0000F301DE /* Foundation.framework */; };
+		7CDE0E93168B4D0000F301DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDE0E92168B4D0000F301DE /* CoreGraphics.framework */; };
+		7CDE0E99168B4D0000F301DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7CDE0E97168B4D0000F301DE /* InfoPlist.strings */; };
+		7CDE0E9B168B4D0000F301DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE0E9A168B4D0000F301DE /* main.m */; };
+		7CDE0E9F168B4D0000F301DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE0E9E168B4D0000F301DE /* AppDelegate.m */; };
+		7CDE0EA1168B4D0000F301DE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDE0EA0168B4D0000F301DE /* Default.png */; };
+		7CDE0EA3168B4D0000F301DE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDE0EA2168B4D0000F301DE /* Default@2x.png */; };
+		7CDE0EA5168B4D0000F301DE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDE0EA4168B4D0000F301DE /* Default-568h@2x.png */; };
+		7CDE0EA8168B4D0000F301DE /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CDE0EA6168B4D0000F301DE /* MainStoryboard_iPhone.storyboard */; };
+		7CDE0EAB168B4D0000F301DE /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CDE0EA9168B4D0000F301DE /* MainStoryboard_iPad.storyboard */; };
+		7CDE0EAE168B4D0000F301DE /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE0EAD168B4D0000F301DE /* FirstViewController.m */; };
+		7CDE0EB0168B4D0000F301DE /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDE0EAF168B4D0000F301DE /* first.png */; };
+		7CDE0EB2168B4D0000F301DE /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDE0EB1168B4D0000F301DE /* first@2x.png */; };
+		7CDE0EB5168B4D0000F301DE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE0EB4168B4D0000F301DE /* SecondViewController.m */; };
+		7CDE0EB7168B4D0000F301DE /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDE0EB6168B4D0000F301DE /* second.png */; };
+		7CDE0EB9168B4D0000F301DE /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDE0EB8168B4D0000F301DE /* second@2x.png */; };
+		7CDE0EC6168B4F3B00F301DE /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDE0EC5168B4F3B00F301DE /* CoreTelephony.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7C2B277516F88BE40010275A /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		7C2B277616F88BE40010275A /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		7C385E78168C44ED009FFC36 /* settingTable.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = settingTable.plist; sourceTree = "<group>"; };
+		7C385E7B168C4515009FFC36 /* mainSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainSettingViewController.h; sourceTree = "<group>"; };
+		7C385E7C168C4515009FFC36 /* mainSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainSettingViewController.m; sourceTree = "<group>"; };
+		7C385E7E168C46EE009FFC36 /* settingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settingCell.h; sourceTree = "<group>"; };
+		7C385E7F168C46EE009FFC36 /* settingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = settingCell.m; sourceTree = "<group>"; };
+		7C385E83168C689C009FFC36 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		7C38D3AD171453780023F3D3 /* libTapticaAd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTapticaAd.a; sourceTree = "<group>"; };
+		7C38D3AF171453810023F3D3 /* TapticaAd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapticaAd.h; sourceTree = "<group>"; };
+		7C9CD86316C01D6200F9A89D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		7CA0BBA416EF80F10093800C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		7CDE0E8A168B4D0000F301DE /* TapticaSampleVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapticaSampleVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CDE0E8E168B4D0000F301DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7CDE0E90168B4D0000F301DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7CDE0E92168B4D0000F301DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7CDE0E96168B4D0000F301DE /* tapticaSampleApplication-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tapticaSampleApplication-Info.plist"; sourceTree = "<group>"; };
+		7CDE0E98168B4D0000F301DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7CDE0E9A168B4D0000F301DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CDE0E9C168B4D0000F301DE /* tapticaSampleApplication-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tapticaSampleApplication-Prefix.pch"; sourceTree = "<group>"; };
+		7CDE0E9D168B4D0000F301DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7CDE0E9E168B4D0000F301DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7CDE0EA0168B4D0000F301DE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7CDE0EA2168B4D0000F301DE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7CDE0EA4168B4D0000F301DE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7CDE0EA7168B4D0000F301DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		7CDE0EAA168B4D0000F301DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		7CDE0EAC168B4D0000F301DE /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		7CDE0EAD168B4D0000F301DE /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		7CDE0EAF168B4D0000F301DE /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		7CDE0EB1168B4D0000F301DE /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		7CDE0EB3168B4D0000F301DE /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		7CDE0EB4168B4D0000F301DE /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		7CDE0EB6168B4D0000F301DE /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		7CDE0EB8168B4D0000F301DE /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		7CDE0EC5168B4F3B00F301DE /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CDE0E87168B4D0000F301DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA0BBA516EF80F10093800C /* MediaPlayer.framework in Frameworks */,
+				7C9CD86416C01D6200F9A89D /* StoreKit.framework in Frameworks */,
+				7C385E84168C689C009FFC36 /* AdSupport.framework in Frameworks */,
+				7CDE0EC6168B4F3B00F301DE /* CoreTelephony.framework in Frameworks */,
+				7CDE0E8F168B4D0000F301DE /* UIKit.framework in Frameworks */,
+				7CDE0E91168B4D0000F301DE /* Foundation.framework in Frameworks */,
+				7CDE0E93168B4D0000F301DE /* CoreGraphics.framework in Frameworks */,
+				7C38D3AE171453780023F3D3 /* libTapticaAd.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CDE0E7F168B4D0000F301DE = {
+			isa = PBXGroup;
+			children = (
+				7CA0BBA416EF80F10093800C /* MediaPlayer.framework */,
+				7C9CD86316C01D6200F9A89D /* StoreKit.framework */,
+				7C385E83168C689C009FFC36 /* AdSupport.framework */,
+				7CDE0EC5168B4F3B00F301DE /* CoreTelephony.framework */,
+				7CDE0E94168B4D0000F301DE /* tapticaSampleApplication */,
+				7CDE0E8D168B4D0000F301DE /* Frameworks */,
+				7CDE0E8B168B4D0000F301DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CDE0E8B168B4D0000F301DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CDE0E8A168B4D0000F301DE /* TapticaSampleVideo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CDE0E8D168B4D0000F301DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CDE0E8E168B4D0000F301DE /* UIKit.framework */,
+				7CDE0E90168B4D0000F301DE /* Foundation.framework */,
+				7CDE0E92168B4D0000F301DE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CDE0E94168B4D0000F301DE /* tapticaSampleApplication */ = {
+			isa = PBXGroup;
+			children = (
+				7C385E7B168C4515009FFC36 /* mainSettingViewController.h */,
+				7C385E7C168C4515009FFC36 /* mainSettingViewController.m */,
+				7CDE0EBF168B4DE900F301DE /* Taptica SDK */,
+				7CDE0E9D168B4D0000F301DE /* AppDelegate.h */,
+				7CDE0E9E168B4D0000F301DE /* AppDelegate.m */,
+				7CDE0EA6168B4D0000F301DE /* MainStoryboard_iPhone.storyboard */,
+				7CDE0EA9168B4D0000F301DE /* MainStoryboard_iPad.storyboard */,
+				7CDE0EAC168B4D0000F301DE /* FirstViewController.h */,
+				7CDE0EAD168B4D0000F301DE /* FirstViewController.m */,
+				7CDE0EAF168B4D0000F301DE /* first.png */,
+				7CDE0EB1168B4D0000F301DE /* first@2x.png */,
+				7CDE0EB3168B4D0000F301DE /* SecondViewController.h */,
+				7CDE0EB4168B4D0000F301DE /* SecondViewController.m */,
+				7CDE0EB6168B4D0000F301DE /* second.png */,
+				7CDE0EB8168B4D0000F301DE /* second@2x.png */,
+				7CDE0E95168B4D0000F301DE /* Supporting Files */,
+				7C385E7E168C46EE009FFC36 /* settingCell.h */,
+				7C385E7F168C46EE009FFC36 /* settingCell.m */,
+				7C2B277516F88BE40010275A /* VideoViewController.h */,
+				7C2B277616F88BE40010275A /* VideoViewController.m */,
+			);
+			path = tapticaSampleApplication;
+			sourceTree = "<group>";
+		};
+		7CDE0E95168B4D0000F301DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C385E78168C44ED009FFC36 /* settingTable.plist */,
+				7CDE0E96168B4D0000F301DE /* tapticaSampleApplication-Info.plist */,
+				7CDE0E97168B4D0000F301DE /* InfoPlist.strings */,
+				7CDE0E9A168B4D0000F301DE /* main.m */,
+				7CDE0E9C168B4D0000F301DE /* tapticaSampleApplication-Prefix.pch */,
+				7CDE0EA0168B4D0000F301DE /* Default.png */,
+				7CDE0EA2168B4D0000F301DE /* Default@2x.png */,
+				7CDE0EA4168B4D0000F301DE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CDE0EBF168B4DE900F301DE /* Taptica SDK */ = {
+			isa = PBXGroup;
+			children = (
+				7C38D3AF171453810023F3D3 /* TapticaAd.h */,
+				7C38D3AD171453780023F3D3 /* libTapticaAd.a */,
+			);
+			name = "Taptica SDK";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CDE0E89168B4D0000F301DE /* tapticaSampleApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CDE0EBC168B4D0000F301DE /* Build configuration list for PBXNativeTarget "tapticaSampleApplication" */;
+			buildPhases = (
+				7CDE0E86168B4D0000F301DE /* Sources */,
+				7CDE0E87168B4D0000F301DE /* Frameworks */,
+				7CDE0E88168B4D0000F301DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tapticaSampleApplication;
+			productName = tapticaSampleApplication;
+			productReference = 7CDE0E8A168B4D0000F301DE /* TapticaSampleVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CDE0E81168B4D0000F301DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = BroadXaster;
+			};
+			buildConfigurationList = 7CDE0E84168B4D0000F301DE /* Build configuration list for PBXProject "tapticaSampleApplication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7CDE0E7F168B4D0000F301DE;
+			productRefGroup = 7CDE0E8B168B4D0000F301DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CDE0E89168B4D0000F301DE /* tapticaSampleApplication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CDE0E88168B4D0000F301DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CDE0E99168B4D0000F301DE /* InfoPlist.strings in Resources */,
+				7CDE0EA1168B4D0000F301DE /* Default.png in Resources */,
+				7CDE0EA3168B4D0000F301DE /* Default@2x.png in Resources */,
+				7CDE0EA5168B4D0000F301DE /* Default-568h@2x.png in Resources */,
+				7CDE0EA8168B4D0000F301DE /* MainStoryboard_iPhone.storyboard in Resources */,
+				7CDE0EAB168B4D0000F301DE /* MainStoryboard_iPad.storyboard in Resources */,
+				7CDE0EB0168B4D0000F301DE /* first.png in Resources */,
+				7CDE0EB2168B4D0000F301DE /* first@2x.png in Resources */,
+				7CDE0EB7168B4D0000F301DE /* second.png in Resources */,
+				7CDE0EB9168B4D0000F301DE /* second@2x.png in Resources */,
+				7C385E79168C44ED009FFC36 /* settingTable.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CDE0E86168B4D0000F301DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CDE0E9B168B4D0000F301DE /* main.m in Sources */,
+				7CDE0E9F168B4D0000F301DE /* AppDelegate.m in Sources */,
+				7CDE0EAE168B4D0000F301DE /* FirstViewController.m in Sources */,
+				7CDE0EB5168B4D0000F301DE /* SecondViewController.m in Sources */,
+				7C385E7D168C4516009FFC36 /* mainSettingViewController.m in Sources */,
+				7C385E80168C46EE009FFC36 /* settingCell.m in Sources */,
+				7C2B277716F88BE40010275A /* VideoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7CDE0E97168B4D0000F301DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CDE0E98168B4D0000F301DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7CDE0EA6168B4D0000F301DE /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CDE0EA7168B4D0000F301DE /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		7CDE0EA9168B4D0000F301DE /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CDE0EAA168B4D0000F301DE /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CDE0EBA168B4D0000F301DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CDE0EBB168B4D0000F301DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CDE0EBD168B4D0000F301DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tapticaSampleApplication/tapticaSampleApplication-Prefix.pch";
+				INFOPLIST_FILE = "tapticaSampleApplication/tapticaSampleApplication-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/TapticaAd-acflckfjxxkxhaeyktnmdysisqhd/Build/Products/Debug-iphoneos\"",
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/TapticaAd-acflckfjxxkxhaeyktnmdysisqhd/Build/Products/Release-universal\"",
+					"\"$(SRCROOT)/tapticaSampleApplication\"",
+				);
+				PRODUCT_NAME = TapticaSampleVideo;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7CDE0EBE168B4D0000F301DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tapticaSampleApplication/tapticaSampleApplication-Prefix.pch";
+				INFOPLIST_FILE = "tapticaSampleApplication/tapticaSampleApplication-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/TapticaAd-acflckfjxxkxhaeyktnmdysisqhd/Build/Products/Debug-iphoneos\"",
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/TapticaAd-acflckfjxxkxhaeyktnmdysisqhd/Build/Products/Release-universal\"",
+					"\"$(SRCROOT)/tapticaSampleApplication\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = TapticaSampleVideo;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CDE0E84168B4D0000F301DE /* Build configuration list for PBXProject "tapticaSampleApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CDE0EBA168B4D0000F301DE /* Debug */,
+				7CDE0EBB168B4D0000F301DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CDE0EBC168B4D0000F301DE /* Build configuration list for PBXNativeTarget "tapticaSampleApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CDE0EBD168B4D0000F301DE /* Debug */,
+				7CDE0EBE168B4D0000F301DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CDE0E81168B4D0000F301DE /* Project object */;
+}

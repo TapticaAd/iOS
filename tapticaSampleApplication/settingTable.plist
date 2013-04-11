@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Title</key>
+		<string>General</string>
+		<key>Rows</key>
+		<array>
+			<dict>
+				<key>Title</key>
+				<string>UserGender</string>
+				<key>value</key>
+				<string>1</string>
+				<key>action</key>
+				<string>setTapticaAdUserGender:</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>UserBirthdate</string>
+				<key>value</key>
+				<string>19750613</string>
+				<key>action</key>
+				<string>setTapticaAdUserBirthdate:</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>UserAreaCode</string>
+				<key>value</key>
+				<string>972</string>
+				<key>action</key>
+				<string>setTapticaAdUserAreaCode</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>MartialStatus</string>
+				<key>value</key>
+				<string>1</string>
+				<key>action</key>
+				<string>setTapticaAdMartialStatus:</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Keywords</string>
+				<key>value</key>
+				<string>kids children toys</string>
+				<key>action</key>
+				<string>setTapticaAdKeywords:</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Interests</string>
+				<key>value</key>
+				<string>circus contortionist</string>
+				<key>action</key>
+				<string>setTapticaAdInterests:</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Income</string>
+				<key>value</key>
+				<string>15000</string>
+				<key>action</key>
+				<string>setTapticaAdIncome:</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Ethnicity</string>
+				<key>value</key>
+				<string>Afro-Portuguese</string>
+				<key>action</key>
+				<string>setTapticaAdEthnicity:</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Education</string>
+				<key>value</key>
+				<string>1</string>
+				<key>action</key>
+				<string>setTapticaAdEducation:</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>GeoLocation lat</string>
+				<key>value</key>
+				<string>10.0</string>
+				<key>action</key>
+				<string>setTapticaAdUserGender:</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>GeoLocation lan</string>
+				<key>value</key>
+				<string>30.2</string>
+				<key>action</key>
+				<string>setTapticaAdUserGender:</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>
